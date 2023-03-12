@@ -182,8 +182,8 @@ async function createIntern () {
       const intern = new Intern(
         InternAnswers.Internname,
         InternAnswers.InternID,
-        InternAnswers.InternGithub,
-        InternAnswers.InternEmail
+        InternAnswers.InternEmail,
+        InternAnswers.InternSchool
       )
       newStaffMember.push(intern)
     })
