@@ -58,30 +58,28 @@ const generateTeam = team => {
         `;
     };
 
-    const html = [];
+    const HTML = [];
 
-    html.push(team
+    HTML.push(team
         .filter(employee => employee.getRole() === "Manager")
         .map(manager => generateManager(manager))
     );
-    html.push(team
+    HTML.push(team
         .filter(employee => employee.getRole() === "Engineer")
         .map(engineer => generateEngineer(engineer))
         .join("")
     );
-    html.push(team
+    HTML.push(team
         .filter(employee => employee.getRole() === "Intern")
         .map(intern => generateIntern(intern))
         .join("")
     );
 
-    return html.join("");
+    return HTML.join("");
 
 }
-
 // exports function to generate entire page
 module.exports = team => {
-
     return `
     <!DOCTYPE html>
 <html lang="en">
