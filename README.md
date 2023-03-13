@@ -10,7 +10,7 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ## Installation
 
-To run this program simply clone the repo from GitHub using the clone command,You can then use the command npm install to download the projects npm dependencies. Currently, that is Inquirer, TypeScript and Es-Lint. Once you have done that you are ready to compile the typescript. This can be done with the command npm run build. This will output JavaScript files to the /dist directory which are used by node. Finally, to run the application, use the command npm start.This application also requires a file system and inquirer module. If testing is required, this application uses Jest.
+To run this program simply clone the repo from GitHub using the clone command,You can then use the command npm install to download the projects npm dependencies. This will output JavaScript files to the /dist directory which are used by node. Finally, to run the application, use the command npm start.This application also requires a file system and inquirer module. If testing is required, this application uses Jest.
 
 NOTE: If you make any code changes, be sure to run npm run build again.
 
